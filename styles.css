@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    width: 100%;
+    height: 10vh;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: teal;
+    color: white;
+}
+ul li{
+    margin: 20px;
+}
+ul li a{
+    color: white;
+    font-variant-caps: all-petite-caps;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.news{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px;
+}
+
+.card{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    border-radius: 10px ;
+}
+#video{
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+h1{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+a{
+    font-size: 18px;
+    color:blue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration-line: underline;
+}
+
+span{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+footer{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    flex-direction: row;
+    background-color: teal;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+}
+footer a{
+    color: white;
+}
